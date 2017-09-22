@@ -30,5 +30,18 @@ Hello world！
 '''
 
 print("msg==>>",msg)
-   
-    
+print('测试ord函数,查看字符在ASCII表中对应的数字')
+print(ord('0'))
+print(ord('a'))
+print(ord('A'))
+print(ord('\n'))
+
+
+print("模糊匹配 有问题")
+import re
+match = re.match('Hell[\t]*(.*)world', 'hello python world')
+strMatch = match.groups()
+#print(strMatch)
+
+
+
