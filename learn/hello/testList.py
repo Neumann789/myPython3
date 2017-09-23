@@ -36,6 +36,13 @@ print("从嵌套列表中提取第三列中，元素为偶数的集合")
 col3 = [row[2] for row in M if row[2] % 2 == 0]
 print(col3)
 
+squares = [x**2 for x in [1, 2, 3, 4, 5]]
+print(squares)
+
+for x in [7, 8, 9]:
+    squares.append(x ** 2)
+
+print(squares)
 
 
 

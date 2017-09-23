@@ -40,8 +40,17 @@ print(ord('\n'))
 print("模糊匹配 有问题")
 import re
 match = re.match('Hell[\t]*(.*)world', 'hello python world')
-strMatch = match.groups()
-#print(strMatch)
+# strMatch = match.groups()
+# print(strMatch)
+
+for c in 'spam':
+    print(c.upper())
+
+x = 4
+while x > 0:
+    print('spam!'*x)
+    x -= 1
+
 
 
 

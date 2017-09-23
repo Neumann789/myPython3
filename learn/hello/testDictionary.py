@@ -24,3 +24,21 @@ M = {
 }
 print(M)
 print(M['name'])
+
+Y = {'d': 1, 'b': 2, 'c': 3}
+print(Y)
+print(Y.keys())
+print(list(Y.keys()))
+YY = list(Y.keys())
+YY.sort()
+print(YY)
+
+for key in YY:
+    print(key, '=>', Y[key])
+
+
+D = {'d': 4, 'r': 7}
+print('f' in D)
+print(not'f' in D)
+
+
