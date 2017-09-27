@@ -14,6 +14,6 @@ if _username == username and _passwd == passwd:
 
 elif _username != username:
     print('username is wrong')
-else :
+else:
     print('password is wrong!')
 
